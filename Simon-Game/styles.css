@@ -1,0 +1,85 @@
+h1,h2{
+  font-family: 'Luckiest Guy' !important;
+  padding-top: 1% !important;
+}
+p {
+  font-family: 'Luckiest Guy' !important;
+  font-size: 60px;
+}
+
+
+#body-container{
+  text-align: center;
+  background: linear-gradient(to bottom, rgb(5, 172, 102), rgb(4, 102, 61) 90%);
+  height: 100vh;
+}
+#title1{
+  font-size: 70px;
+  color: rgb(213, 255, 5) !important;
+  text-shadow: 2px 2px 4px #000000;
+}
+#title2{
+  font-size: 40px;
+}
+
+#green{
+  background: radial-gradient(rgb(39, 251, 5),rgb(21, 149, 1));
+}
+#red{
+  background: radial-gradient(rgb(255, 15, 0),rgb(167, 0, 0));
+}
+#yellow{
+  background: radial-gradient(rgb(251, 227, 5),rgb(145, 131, 1));
+}
+#blue{
+  background: radial-gradient(rgb(5, 148, 251),rgb(2, 83, 142));
+}
+
+#game-over-pop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 230px;
+  background-color: rgb(110, 0, 148);
+  color: rgb(246, 191, 27);
+  text-shadow: 2px 2px 4px #000000;
+  position: relative;
+  bottom: 340px;
+  left: 485px;
+  border: 3px solid rgb(255, 184, 0);
+  opacity: 1;
+}
+
+
+.btn{
+  width: 150px !important;
+  height: 150px !important;
+  border: 10px solid black !important;
+  border-radius: 20% !important;
+  box-shadow: 2px 2px 4px #000000;
+  margin: 30px;
+}
+.container{
+  padding-top: 2% !important;
+}
+
+.pressed{
+  box-shadow: none;
+  opacity: 0.7;
+}
+/* .pop-up {
+  opacity: 1;
+  position: absolute;
+  transform-origin: bottom;
+  animation-name: pop-zoom;
+  animation-duration: 2s;
+}
+@keyframes pop-zoom {
+  100%{
+    opacity: 1;
+    transform-origin: center;
+    transform: scale(3);
+  }
+} */
